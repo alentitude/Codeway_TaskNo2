@@ -1,0 +1,53 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calcMain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  max-width: 300px;
+  margin: auto;
+}
+
+#screen {
+  font-family: "Cute Font";
+  font-size: larger;
+  grid-column: span 4;
+  background-color: #ace26a;
+  border-radius: 10px;
+  text-align: right;
+  padding: 10px;
+  font-size: 2em;
+}
+
+button {
+  font-family: "Pridi";
+  border-radius: 10px;
+  padding: 17px;
+  font-size: 1em;
+  text-align: center;
+  background-color: #5a5d5f;
+  color: #ace26a;
+  border-color: #ace26a;
+  border-style: solid;
+  border-width: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #2980b9;
+}
+
+button:hover {
+  background-color: #424446;
+  color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
